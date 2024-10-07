@@ -1,5 +1,5 @@
 ### Base Image
-FROM registry.access.redhat.com/ubi9/ubi-minimal:9.1.0-1829 as base
+FROM registry.access.redhat.com/ubi9/ubi-minimal:9.4-1227.1726694542 as base
 
 RUN microdnf -y update \
     && microdnf -y install python3 python3-pip \
